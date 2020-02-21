@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 
-// Setting what titles I want to show on the app.
 const Form = props => {
     const [note, setNote] =useState({
         name: "",
@@ -23,13 +22,13 @@ const Form = props => {
         <form onSubmit={submitForm}>
             <label htmlFor="name">Name</label>
             <input name="name" id="name" type="text" placeholder="name" onChange={changeHandler} value={note.name}/>
-
+          <br/>
             <label htmlFor="email">Email</label>
             <input name="email" id="email" type="text" placeholder="email" onChange={changeHandler} value={note.email}/>
-
+          <br/>
             <label htmlFor="role">Role</label>
             <input name="role" id="role" type="text" placeholder="role" onChange={changeHandler} value={note.role}/>
-
+          <br/>
             <button type="submit">Submit</button>
         </form>
     );

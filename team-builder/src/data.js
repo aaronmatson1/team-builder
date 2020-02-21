@@ -3,7 +3,7 @@ export default[
     {
         name: "Aaron",
         role: "Web Developer",
-        email: "email@email.com"
+        email: "matsonaaron1@gmail.com"
     },
 
     {
@@ -15,7 +15,7 @@ export default[
 
     {
         name: "Dwight Schrute",
-        role: "World's best Paper Salesman",
+        role: "World's Best Paper Salesman",
         email: "Dwight@DunderMifflin.com"
     }
 ]
